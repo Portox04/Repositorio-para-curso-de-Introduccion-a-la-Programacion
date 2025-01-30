@@ -32,8 +32,10 @@ public class Main {
         double temperatura;
         char inicial;
           
-        
+        System.out.println("Comencemos");
         nombre = JOptionPane.showInputDialog("Por favor dame tu nombre");
+        
+        JOptionPane.showMessageDialog(null, nombre);
         
     }
     
